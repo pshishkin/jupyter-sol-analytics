@@ -6,7 +6,10 @@
 
 `poetry install`
 
+Don't forget to set password:
+`poetry run jupyter password`
+
 # launch
 
-`poetry run jupyter notebook`
+`poetry run jupyter notebook --ip=* --port=8456`
 
